@@ -1,0 +1,10 @@
+{
+    "ClasseA": [
+        "ClasseB",
+        "ClasseC"
+    ],
+    "ClasseB": [
+        "ClasseC"
+    ],
+    "ClasseC": []
+}

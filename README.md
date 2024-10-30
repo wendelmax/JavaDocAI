@@ -1,126 +1,128 @@
 # **JavaDocAI**
 
-**JavaDocAI** is an automated tool designed to enhance your Java codebase by adding comprehensive Javadoc comments to all classes, methods, and fields. Leveraging the power of OpenAI's ChatGPT API, JavaDocAI not only generates standard Javadoc comments but also intelligently references and cross-references related classes within your project. This ensures that your documentation is both thorough and interconnected, facilitating better code understanding and maintenance.
+**JavaDocAI** é uma ferramenta automatizada projetada para aprimorar seu código Java adicionando comentários Javadoc abrangentes a todas as classes, métodos e campos. Utilizando o poder da API ChatGPT da OpenAI, o JavaDocAI não apenas gera comentários Javadoc padrão, mas também referencia e cria cruzamentos inteligentes com classes relacionadas dentro do seu projeto. Isso garante que sua documentação seja detalhada e interconectada, facilitando a compreensão e manutenção do código.
 
-## 📄 Table of Contents
+## 📄 Sumário
 
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Auxiliary File](#auxiliary-file)
-- [Considerations](#considerations)
-- [Contributing](#contributing)
-- [License](#license)
+- [Recursos](#🌟-recursos)
+- [Pré-requisitos](#🚀-pré-requisitos)
+- [Instalação](#🛠-instalação)
+- [Configuração](#⚙️-configuração)
+- [Uso](#📚-uso)
+- [Estrutura do Projeto](#🗂-estrutura-do-projeto)
+- [Arquivo Auxiliar](#🛠-arquivo-auxiliar)
+- [Considerações](#⚠️-considerações)
+- [Contribuindo](#🤝-contribuindo)
+- [Licença](#📝-licença)
 
-## 🌟 Features
+## 🌟 Recursos
 
-- **Automated Javadoc Generation**: Automatically adds Javadoc comments to all Java classes, methods, and fields.
-- **Intelligent Cross-Referencing**: Analyzes class dependencies and includes `@see` tags to reference related classes.
-- **Comprehensive Documentation**: Utilizes OpenAI's GPT-4 model to generate detailed and meaningful documentation.
-- **Auxiliary Relationship Mapping**: Generates a `class_relationships.json` file that maps out the relationships between classes in your project.
-- **Seamless Integration**: Easily integrates into existing Java projects with minimal setup.
-- **Error Handling & Rate Limiting**: Handles API rate limits gracefully and ensures reliable operation.
+- **Geração Automatizada de Javadoc**: Adiciona automaticamente comentários Javadoc a todas as classes, métodos e campos Java.
+- **Referências Cruzadas Inteligentes**: Analisa dependências de classes e inclui tags `@see` para referenciar classes relacionadas.
+- **Documentação Abrangente**: Utiliza o modelo GPT-4 da OpenAI para gerar documentação detalhada e significativa.
+- **Mapeamento de Relacionamentos Auxiliar**: Gera um arquivo `class_relationships.json` que mapeia as relações entre as classes do seu projeto.
+- **Integração Simplificada**: Integra-se facilmente a projetos Java existentes com configuração mínima.
+- **Tratamento de Erros e Limitação de Taxa**: Lida com limites de taxa da API de forma graciosa e garante operação confiável.
 
-## 🚀 Prerequisites
+## 🚀 Pré-requisitos
 
-Before setting up JavaDocAI, ensure you have the following:
+Antes de configurar o JavaDocAI, certifique-se de ter o seguinte:
 
-1. **Python 3.7+**: Ensure Python is installed on your system. You can download it from [python.org](https://www.python.org/downloads/).
+1. **Python 3.7+**: Verifique se o Python está instalado no seu sistema. Você pode baixá-lo em [python.org](https://www.python.org/downloads/).
 
-2. **OpenAI API Key**: Obtain an API key from [OpenAI](https://platform.openai.com/account/api-keys). This key is necessary to interact with the ChatGPT API.
+2. **Chave da API OpenAI**: Obtenha uma chave de API da [OpenAI](https://platform.openai.com/account/api-keys). Esta chave é necessária para interagir com a API ChatGPT.
 
-3. **Git** (optional): For version control and managing backups.
+3. **Git** (opcional): Para controle de versão e gerenciamento de backups.
 
-## 🛠 Installation
+## 🛠 Instalação
 
-1. **Clone the Repository**
+1. **Clone o Repositório**
 
    ```bash
-   git clone https://github.com/seu-usuario/JavaDocAI.git
+   git clone https://github.com/wendelmax/JavaDocAI.git
    cd JavaDocAI
    ```
 
-2. **Create a Virtual Environment** (Optional but recommended)
+2. **Crie um Ambiente Virtual** (Opcional, mas recomendado)
 
    ```bash
    python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   source venv/bin/activate  # No Windows: venv\Scripts\activate
    ```
 
-3. **Install Required Python Libraries**
+3. **Instale as Bibliotecas Python Necessárias**
 
    ```bash
    pip install -r requirements.txt
    ```
 
-   *If `requirements.txt` is not provided, install the dependencies manually:*
+   *Se o arquivo `requirements.txt` não estiver disponível, instale as dependências manualmente:*
 
    ```bash
    pip install openai tqdm javalang
    ```
 
-## ⚙️ Configuration
+## ⚙️ Configuração
 
-1. **Set Up OpenAI API Key**
+1. **Configure a Chave da API OpenAI**
 
-   It's recommended to store your OpenAI API key as an environment variable for security.
+   É recomendado armazenar sua chave da API OpenAI como uma variável de ambiente para segurança.
 
-   - **On Linux/macOS:**
+   - **No Linux/macOS:**
 
      ```bash
      export OPENAI_API_KEY="sua-chave-api-aqui"
      ```
 
-   - **On Windows (Command Prompt):**
+   - **No Windows (Prompt de Comando):**
 
      ```cmd
      set OPENAI_API_KEY="sua-chave-api-aqui"
      ```
 
-   - **On Windows (PowerShell):**
+   - **No Windows (PowerShell):**
 
      ```powershell
      $env:OPENAI_API_KEY="sua-chave-api-aqui"
      ```
 
-   *Alternatively, you can directly set the `openai.api_key` variable in the script, but this is **not recommended** for security reasons.*
+   *Alternativamente, você pode definir diretamente a variável `openai.api_key` no script, mas isso **não é recomendado** por questões de segurança.*
 
-2. **Specify the Java Repository Path**
+## 📚 Uso
 
-   In the `java_doc_ai.py` script, update the `REPO_DIR` variable to point to the root directory of your Java project.
-
-   ```python
-   REPO_DIR = "/caminho/para/seu/repositorio"
-   ```
-
-## 📚 Usage
-
-1. **Navigate to the Project Directory**
+1. **Navegue até o Diretório do Projeto**
 
    ```bash
    cd JavaDocAI
    ```
 
-2. **Run the Script**
+2. **Execute o Script**
 
    ```bash
    python java_doc_ai.py
    ```
 
-   *Ensure that you've activated your virtual environment if you created one.*
+   *Certifique-se de ter ativado seu ambiente virtual, se você criou um.*
 
-3. **Process Overview**
+3. **Siga as Instruções**
 
-   - The script scans the specified Java repository for all `.java` files.
-   - It parses each Java file to identify class names and their dependencies.
-   - An auxiliary JSON file (`class_relationships.json`) is generated, mapping out relationships between classes.
-   - Each Java file is sent to the OpenAI API with a prompt to add Javadoc comments, including references to related classes.
-   - The original Java files are overwritten with the updated code containing the newly added Javadocs.
+   - **Entrada do Diretório do Repositório Java:**
+     
+     Ao executar o script, você será solicitado a inserir o caminho absoluto do diretório do repositório Java que deseja processar. Por exemplo:
 
-## 🗂 Project Structure
+     ```
+     Por favor, insira o caminho absoluto do diretório do repositório Java: /home/usuario/meu-projeto-java
+     ```
+
+   - **Processo de Execução:**
+
+     - O script escaneará o repositório especificado em busca de todos os arquivos `.java`.
+     - Analisa cada arquivo Java para identificar nomes de classes e suas dependências.
+     - Gera um arquivo auxiliar (`class_relationships.json`) que mapeia as relações entre as classes.
+     - Envia cada arquivo Java para a API da OpenAI com um prompt para adicionar comentários Javadoc, incluindo referências às classes relacionadas.
+     - Sobrescreve os arquivos Java originais com o código atualizado contendo os Javadocs adicionados.
+
+## 🗂 Estrutura do Projeto
 
 ```
 JavaDocAI/
@@ -131,16 +133,16 @@ JavaDocAI/
 └── ... (outros arquivos)
 ```
 
-- **java_doc_ai.py**: Main script that performs Javadoc generation and class relationship mapping.
-- **class_relationships.json**: Auxiliary file that stores the relationships between classes.
-- **requirements.txt**: Lists all Python dependencies.
-- **README.md**: Documentation for the project.
+- **java_doc_ai.py**: Script principal que realiza a geração de Javadoc e o mapeamento de relacionamentos entre classes.
+- **class_relationships.json**: Arquivo auxiliar que armazena os relacionamentos entre classes.
+- **requirements.txt**: Lista todas as dependências Python.
+- **README.md**: Documentação do projeto.
 
-## 🛠 Auxiliary File
+## 🛠 Arquivo Auxiliar
 
 ### `class_relationships.json`
 
-This JSON file provides a clear mapping of how classes within your project relate to each other. It is structured as follows:
+Este arquivo JSON fornece um mapeamento claro de como as classes dentro do seu projeto se relacionam. Ele está estruturado da seguinte forma:
 
 ```json
 {
@@ -155,21 +157,21 @@ This JSON file provides a clear mapping of how classes within your project relat
 
 *Este arquivo pode ser utilizado para análises adicionais, documentação ou geração de diagramas de dependência.*
 
-## ⚠️ Considerations
+## ⚠️ Considerações
 
 - **Backup do Código**: Antes de executar o script, **certifique-se de ter um backup** do seu repositório ou use um sistema de controle de versão (como Git) para poder reverter alterações, se necessário.
 
-- **Limites de API**: A API do OpenAI possui limites de tokens por requisição. Arquivos Java muito grandes podem precisar ser divididos ou ajustados para se adequar aos limites.
+- **Limites da API**: A API da OpenAI possui limites de tokens por requisição. Arquivos Java muito grandes podem precisar ser divididos ou ajustados para se adequarem aos limites.
 
-- **Custo**: O uso da API do OpenAI está sujeito a cobranças. Monitore seu consumo para evitar despesas inesperadas.
+- **Custo**: O uso da API da OpenAI está sujeito a cobranças. Monitore seu consumo para evitar despesas inesperadas.
 
-- **Qualidade dos Comentários**: Embora o modelo GPT-4 seja poderoso, é recomendado revisar os Javadocs gerados para garantir precisão e relevância.
+- **Qualidade dos Comentários**: Embora o modelo GPT-4 seja poderoso, é recomendado revisar os comentários Javadoc gerados para garantir precisão e relevância.
 
 - **Análise Estática Limitada**: A análise de dependências é baseada em importações e tipos utilizados. Pode não capturar todas as nuances das relações entre classes, como dependências dinâmicas ou reflexões.
 
-## 🤝 Contributing
+## 🤝 Contribuindo
 
-Contribuições são bem-vindas! Se você deseja melhorar JavaDocAI, siga estas etapas:
+Contribuições são bem-vindas! Se você deseja melhorar o JavaDocAI, siga estas etapas:
 
 1. **Fork o Repositório**
 
@@ -193,10 +195,6 @@ Contribuições são bem-vindas! Se você deseja melhorar JavaDocAI, siga estas 
 
 5. **Abra um Pull Request**
 
-## 📝 License
+## 📝 Licença
 
 Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
-**JavaDocAI** facilita a manutenção e documentação do seu projeto Java, garantindo que seu código esteja bem documentado e interconectado. Aproveite esta ferramenta para melhorar a legibilidade e a colaboração em seu códigobase!
