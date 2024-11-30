@@ -1,0 +1,136 @@
+{
+    "en": {
+        "logs": {
+            "setup": "Setting up JavaDocAI...",
+            "complete": "Setup complete",
+            "processing_start": "Starting to process Java files...",
+            "processing_complete": "Processing complete",
+            "file_processed": "File processed: {file_path}",
+            "found_files": "Found {count} Java files to process",
+            "batch_processing": "Processing batch {current} of {total}",
+            "server_starting": "Starting Ollama server...",
+            "server_started": "Ollama server started",
+            "server_running": "Ollama server is running",
+            "server_failed": "Ollama server failed to start"
+        },
+        "errors": {
+            "config_not_found": "Configuration file not found: {path}",
+            "ollama_not_installed": "Ollama is not installed",
+            "ollama_install_failed": "Failed to install Ollama",
+            "server_connection": "Could not connect to Ollama server",
+            "model_download": "Error downloading model: {error}",
+            "file_processing": "Error processing file: {error}",
+            "file_read": "Error reading file: {file_path} - {error}",
+            "file_write": "Error writing file: {file_path} - {error}",
+            "parser_init": "Failed to initialize Java parser: {error}",
+            "api_error": "Ollama API error: {error}",
+            "unexpected_error": "Unexpected error: {error}"
+        },
+        "warnings": {
+            "no_signatures": "No signatures found in file: {file_path}",
+            "invalid_javadoc": "Invalid Javadoc format received for {type}: {signature}",
+            "skipping_file": "Skipping file: {reason}"
+        },
+        "info": {
+            "model_available": "Model {model} is already available",
+            "model_downloading": "Downloading model {model}...",
+            "model_downloaded": "Model {model} downloaded successfully",
+            "processing_file": "Processing file: {file}",
+            "javadoc_exists": "Javadoc already exists above line {line}",
+            "batch_complete": "Batch processing complete: {success} files processed, {failed} failed"
+        },
+        "debug": {
+            "model_response": "Complete model response: {response}",
+            "parsing_file": "Parsing file: {file}",
+            "generating_javadoc": "Generating Javadoc for {type}: {signature}",
+            "inserting_javadoc": "Inserting Javadoc at line {line}:\n{comment}"
+        },
+        "input": {
+            "enter_repo_dir": "Enter the path to your Java repository: ",
+            "dir_not_exist": "Directory does not exist. Please enter a valid path.",
+            "no_java_files": "No Java files found in the directory.",
+            "confirm_process": "Found {count} Java files. Process them? (y/n): "
+        },
+        "prompts": {
+            "system_role": "You are a professional Java developer. Your task is to generate high-quality Javadoc comments that follow best practices.",
+            "single_prompt": "Generate a Javadoc comment for the following Java {signature_type}:\n\n{signature}\n\nThe comment should follow standard Javadoc format, starting with /** and ending with */. Include appropriate tags like @param, @return, and @throws if applicable."
+        },
+        "progress": {
+            "downloading_model": "Downloading model...",
+            "processing_files": "Processing files...",
+            "generating_docs": "Generating documentation..."
+        },
+        "success": {
+            "model_ready": "AI model ready",
+            "docs_generated": "Documentation generated successfully",
+            "file_updated": "File updated: {file}"
+        }
+    },
+    "pt": {
+        "logs": {
+            "setup": "Configurando JavaDocAI...",
+            "complete": "Configuração concluída",
+            "processing_start": "Iniciando processamento dos arquivos Java...",
+            "processing_complete": "Processamento concluído",
+            "file_processed": "Arquivo processado: {file_path}",
+            "found_files": "Encontrados {count} arquivos Java para processar",
+            "batch_processing": "Processando lote {current} de {total}",
+            "server_starting": "Iniciando servidor Ollama...",
+            "server_started": "Servidor Ollama iniciado",
+            "server_running": "Servidor Ollama está rodando",
+            "server_failed": "Falha ao iniciar servidor Ollama"
+        },
+        "errors": {
+            "config_not_found": "Arquivo de configuração não encontrado: {path}",
+            "ollama_not_installed": "Ollama não está instalado",
+            "ollama_install_failed": "Falha ao instalar Ollama",
+            "server_connection": "Não foi possível conectar ao servidor Ollama",
+            "model_download": "Erro ao baixar modelo: {error}",
+            "file_processing": "Erro ao processar arquivo: {error}",
+            "file_read": "Erro ao ler arquivo: {file_path} - {error}",
+            "file_write": "Erro ao escrever arquivo: {file_path} - {error}",
+            "parser_init": "Falha ao inicializar parser Java: {error}",
+            "api_error": "Erro na API Ollama: {error}",
+            "unexpected_error": "Erro inesperado: {error}"
+        },
+        "warnings": {
+            "no_signatures": "Nenhuma assinatura encontrada no arquivo: {file_path}",
+            "invalid_javadoc": "Formato Javadoc inválido recebido para {type}: {signature}",
+            "skipping_file": "Pulando arquivo: {reason}"
+        },
+        "info": {
+            "model_available": "Modelo {model} já está disponível",
+            "model_downloading": "Baixando modelo {model}...",
+            "model_downloaded": "Modelo {model} baixado com sucesso",
+            "processing_file": "Processando arquivo: {file}",
+            "javadoc_exists": "Javadoc já existe acima da linha {line}",
+            "batch_complete": "Processamento em lote concluído: {success} arquivos processados, {failed} falhas"
+        },
+        "debug": {
+            "model_response": "Resposta completa do modelo: {response}",
+            "parsing_file": "Analisando arquivo: {file}",
+            "generating_javadoc": "Gerando Javadoc para {type}: {signature}",
+            "inserting_javadoc": "Inserindo Javadoc na linha {line}:\n{comment}"
+        },
+        "input": {
+            "enter_repo_dir": "Digite o caminho para seu repositório Java: ",
+            "dir_not_exist": "Diretório não existe. Por favor, digite um caminho válido.",
+            "no_java_files": "Nenhum arquivo Java encontrado no diretório.",
+            "confirm_process": "Encontrados {count} arquivos Java. Processar? (s/n): "
+        },
+        "prompts": {
+            "system_role": "Você é um desenvolvedor Java profissional. Sua tarefa é gerar comentários Javadoc de alta qualidade que seguem as melhores práticas.",
+            "single_prompt": "Gere um comentário Javadoc para o seguinte {signature_type} Java:\n\n{signature}\n\nO comentário deve seguir o formato padrão Javadoc, começando com /** e terminando com */. Inclua tags apropriadas como @param, @return e @throws se aplicável."
+        },
+        "progress": {
+            "downloading_model": "Baixando modelo...",
+            "processing_files": "Processando arquivos...",
+            "generating_docs": "Gerando documentação..."
+        },
+        "success": {
+            "model_ready": "Modelo de IA pronto",
+            "docs_generated": "Documentação gerada com sucesso",
+            "file_updated": "Arquivo atualizado: {file}"
+        }
+    }
+}

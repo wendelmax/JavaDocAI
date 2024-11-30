@@ -1,0 +1,28 @@
+ollama:
+  server_port: 11434
+  sched_spread: true
+  flash_attention: true
+  max_retries: 5
+  retry_delay: 60
+  model: "qwen2.5-coder:7b"
+  temperature: 0.7
+  top_p: 0.95
+  context_window: 4096
+
+paths:
+  auxiliary_file: "class_relationships.json"
+  log_file: "logs/java_doc_ai.log"
+
+logging:
+  level: "INFO"
+  rotation: "1 day"
+  retention: "1 week"
+  format: "%(asctime)s - %(levelname)s - %(message)s"
+
+language:
+  default: "en"
+
+processing:
+  batch_size: 10
+  max_concurrent_tasks: 4
+  timeout: 300

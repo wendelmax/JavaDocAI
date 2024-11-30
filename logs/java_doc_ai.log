@@ -1,0 +1,807 @@
+2024-11-13 16:31:50,146 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:31:56,139 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:31:56,790 - INFO - File processed successfully: /home/jackson-sa/Projects/pricing-engine/java/pricing-module/src/main/java/com/abinbev/b2b/pricing/module/step/BasePricingStep.java
+2024-11-13 16:32:01,569 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:32:11,660 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:32:15,664 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:32:24,973 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:32:24,975 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:32:26,188 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:32:32,179 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:32:43,706 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:32:49,778 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:33:05,436 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:33:09,558 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:33:24,083 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:33:33,934 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:33:43,265 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:33:46,021 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:33:52,639 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:34:02,278 - INFO - File processed successfully: /home/jackson-sa/Projects/pricing-engine/java/pricing-module/src/main/java/com/abinbev/b2b/pricing/module/step/itemdiscounts/CalculatePerUomPricesStep.java
+2024-11-13 16:34:06,139 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:34:16,839 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:34:20,315 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:34:27,559 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:34:30,374 - INFO - File processed successfully: /home/jackson-sa/Projects/pricing-engine/java/pricing-module/src/main/java/com/abinbev/b2b/pricing/module/step/itemdiscounts/ProfitMarginRange.java
+2024-11-13 16:34:35,291 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:34:41,136 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:34:42,987 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:34:55,775 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:35:02,646 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:35:11,589 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:35:21,532 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:35:28,936 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:35:56,349 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:36:00,126 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:36:02,467 - INFO - File processed successfully: /home/jackson-sa/Projects/pricing-engine/java/pricing-module/src/main/java/com/abinbev/b2b/pricing/module/step/itemdiscounts/GroupRangesByRangeStartAndVendorItemIdStep.java
+2024-11-13 16:36:04,502 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:36:13,534 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:36:15,899 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:36:20,603 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:36:29,611 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:36:36,370 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:36:39,568 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:36:42,329 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:36:48,631 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:37:04,795 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:37:16,414 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:37:20,948 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:37:28,011 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:37:36,501 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:37:44,802 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:37:49,192 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:38:03,090 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:38:06,811 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:38:14,961 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:38:24,080 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:38:44,261 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:38:50,028 - INFO - File processed successfully: /home/jackson-sa/Projects/pricing-engine/java/pricing-module/src/main/java/com/abinbev/b2b/pricing/module/step/itemdiscounts/ItemBusinessVerificationStep.java
+2024-11-13 16:38:54,458 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:49:30,917 - INFO - 
+Repository directory set to: /home/jackson-sa/Projects/pricing-engine/java/pricing-module/src/main/java/com/abinbev/b2b/pricing/module/step
+
+2024-11-13 16:49:30,963 - INFO - Ollama3 is already installed.
+2024-11-13 16:49:30,966 - INFO - HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2024-11-13 16:49:30,966 - INFO - Model 'llama3.2' is already available.
+2024-11-13 16:49:30,966 - INFO - Starting the Ollama server...
+2024-11-13 16:49:30,966 - INFO - Ollama server started. Waiting for initialization...
+2024-11-13 16:49:45,981 - INFO - Ollama server is running.
+2024-11-13 16:49:45,984 - INFO - Found 91 Java files.
+
+2024-11-13 16:49:45,984 - INFO - Adding Javadoc with cross-references...
+2024-11-13 16:49:52,867 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:49:57,439 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:50:02,007 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:50:06,748 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:50:50,694 - WARNING - Formato de Javadoc inválido recebido para class: public class CalculatePerUomPricesStep implements BasePricingStep<Void>
+2024-11-13 16:50:56,460 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:51:00,004 - WARNING - Formato de Javadoc inválido recebido para class: public class ProfitMarginRange
+2024-11-13 16:51:05,722 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:51:13,985 - WARNING - Formato de Javadoc inválido recebido para class: public class CalculatePriceReductionStep implements BasePricingStep<CalculatePriceReductionStepResult>
+2024-11-13 16:51:19,428 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:51:26,595 - WARNING - Formato de Javadoc inválido recebido para class: public interface BasePricingStep<O> {
+
+	Pair<StepResultType, O> process(PricingEngineData input, Map<StepResultType, ?> previousResults, Object... params)
+			throws PricingStepException;
+}
+2024-11-13 16:51:26,595 - INFO - Processing complete.
+2024-11-13 16:51:26,595 - INFO - File processed successfully: /home/jackson-sa/Projects/pricing-engine/java/pricing-module/src/main/java/com/abinbev/b2b/pricing/module/step/BasePricingStep.java
+2024-11-13 16:51:32,561 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:52:18,947 - WARNING - Formato de Javadoc inválido recebido para class: public class ApplyBestItemDiscountByRangeStep implements BasePricingStep<ApplyBestItemDiscountByRangeStepResult>
+2024-11-13 16:52:27,305 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:52:35,162 - WARNING - Formato de Javadoc inválido recebido para class: public class ItemBusinessVerificationStep implements BasePricingStep<ItemBusinessVerificationStepResult>
+2024-11-13 16:52:43,330 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:52:44,482 - WARNING - Formato de Javadoc inválido recebido para class: public class ApplyAllItemDiscountByRangeStep implements BasePricingStep<ApplyAllItemDiscountByRangeStepResult>
+2024-11-13 16:52:52,921 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:52:57,253 - WARNING - Formato de Javadoc inválido recebido para class: public class CalculateDiscountsByRangeStep implements BasePricingStep<CalculateDiscountsByRangeStepResult>
+2024-11-13 16:53:03,570 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:53:17,121 - WARNING - Formato de Javadoc inválido recebido para method: public static CalculatePerUomPricesStep getInstance()
+2024-11-13 16:53:25,473 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:53:31,773 - WARNING - Formato de Javadoc inválido recebido para method: public BigDecimal getBrowseMargin()
+2024-11-13 16:53:40,161 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:53:43,498 - WARNING - Formato de Javadoc inválido recebido para method: public static CalculatePriceReductionStep getInstance()
+2024-11-13 16:53:51,754 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:54:13,004 - WARNING - Formato de Javadoc inválido recebido para method: public static ApplyBestItemDiscountByRangeStep getInstance()
+2024-11-13 16:54:21,379 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:54:24,527 - WARNING - Formato de Javadoc inválido recebido para method: public static ItemBusinessVerificationStep getInstance()
+2024-11-13 16:54:34,625 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:54:43,025 - WARNING - Formato de Javadoc inválido recebido para method: public static ApplyAllItemDiscountByRangeStep getInstance()
+2024-11-13 16:54:51,268 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:54:56,213 - WARNING - Formato de Javadoc inválido recebido para class: public class GroupRangesByRangeStartAndVendorItemIdStep implements BasePricingStep<GroupRangesByRangeStartAndVendorItemIdStepResult>
+2024-11-13 16:55:06,685 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:55:17,637 - WARNING - Formato de Javadoc inválido recebido para method: public static CalculateDiscountsByRangeStep getInstance()
+2024-11-13 16:55:28,311 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:55:47,964 - WARNING - Formato de Javadoc inválido recebido para method: public BigDecimal getLowestMargin()
+2024-11-13 16:55:59,465 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:56:23,076 - WARNING - Formato de Javadoc inválido recebido para method: @Override
+	public Pair<StepResultType, Void> process(final PricingEngineData input, final Map<StepResultType, ?> previousResults,
+			final Object... params)
+			throws PricingStepException
+2024-11-13 16:56:33,907 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:56:40,967 - WARNING - Formato de Javadoc inválido recebido para method: @Override
+	public Pair<StepResultType, CalculatePriceReductionStepResult> process(final PricingEngineData input,
+			final Map<StepResultType, ?> previousResults, final Object... params) throws PricingStepException
+2024-11-13 16:56:49,790 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:57:08,972 - WARNING - Formato de Javadoc inválido recebido para method: @Override
+    public Pair<StepResultType, ApplyBestItemDiscountByRangeStepResult> process(final PricingEngineData input,
+                                                                                final Map<StepResultType, ?> previousResults, final Object... params) throws PricingStepException
+2024-11-13 16:57:19,157 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:57:28,150 - WARNING - Formato de Javadoc inválido recebido para method: public static GroupRangesByRangeStartAndVendorItemIdStep getInstance()
+2024-11-13 16:57:36,559 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:57:37,444 - WARNING - Formato de Javadoc inválido recebido para method: @Override
+	public Pair<StepResultType, ItemBusinessVerificationStepResult> process(final PricingEngineData input,
+			final Map<StepResultType, ?> previousResults,
+			final Object... params) throws PricingStepException
+2024-11-13 16:57:46,861 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:58:01,495 - WARNING - Formato de Javadoc inválido recebido para method: @Override
+    public Pair<StepResultType, ApplyAllItemDiscountByRangeStepResult> process(final PricingEngineData input,
+                                                                               final Map<StepResultType, ?> previousResults, final Object... params) throws PricingStepException
+2024-11-13 16:58:13,332 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:58:28,140 - WARNING - Formato de Javadoc inválido recebido para method: public BigDecimal getHighestMargin()
+2024-11-13 16:58:28,140 - INFO - Processing complete.
+2024-11-13 16:58:28,140 - INFO - File processed successfully: /home/jackson-sa/Projects/pricing-engine/java/pricing-module/src/main/java/com/abinbev/b2b/pricing/module/step/itemdiscounts/ProfitMarginRange.java
+2024-11-13 16:58:38,425 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:59:08,647 - WARNING - Formato de Javadoc inválido recebido para method: @Override
+    public Pair<StepResultType, CalculateDiscountsByRangeStepResult> process(final PricingEngineData input,
+                                                                             final Map<StepResultType, ?> previousResults, final Object... params) throws PricingStepException
+2024-11-13 16:59:08,888 - WARNING - Formato de Javadoc inválido recebido para method: private void removeInvalidItemsFromInput(final PricingEngineData input, final List<String> invalidVendorItemIdsList)
+2024-11-13 16:59:08,888 - INFO - Processing complete.
+2024-11-13 16:59:08,888 - INFO - File processed successfully: /home/jackson-sa/Projects/pricing-engine/java/pricing-module/src/main/java/com/abinbev/b2b/pricing/module/step/itemdiscounts/CalculatePerUomPricesStep.java
+2024-11-13 16:59:28,266 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 16:59:28,269 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 17:00:02,158 - WARNING - Formato de Javadoc inválido recebido para method: private boolean shouldApplyBestDiscountStrategy(final PricingEngineData input,
+                                                    final Map<String, Map<Integer, List<CalculatedRangeDiscount>>> groupedRangesDiscountsByVendorItemId)
+2024-11-13 17:00:15,657 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 17:00:16,906 - WARNING - Formato de Javadoc inválido recebido para method: private Pair<Map<String, List<NormalizedDealInfo>>, Map<String, List<PriceItemDiscountDetail>>> getNormalizedDealInfoListAndPriceItemDiscountDetailListPair(
+			final CustomerPricingFact customerPricingFact, final List<DealFact> dealFactPriceReductionList,
+			final CalculatePriceChargeStepResult calculatePriceChargeStepResult)
+2024-11-13 17:00:24,469 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 17:00:38,597 - WARNING - Formato de Javadoc inválido recebido para method: private ItemBusinessVerificationStepResult extractUsBusinessVerificationResult(final PricingEngineData input)
+2024-11-13 17:00:51,204 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 17:03:44,527 - INFO - 
+Repository directory set to: /home/jackson-sa/Projects/pricing-engine/java/pricing-module/src/main/java/com/abinbev/b2b/pricing/module/step
+
+2024-11-13 17:03:44,562 - INFO - Ollama3 is already installed.
+2024-11-13 17:03:44,565 - INFO - HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2024-11-13 17:03:44,565 - INFO - Model 'llama3.2' is already available.
+2024-11-13 17:03:44,565 - INFO - Starting the Ollama server...
+2024-11-13 17:03:44,566 - INFO - Ollama server started. Waiting for initialization...
+2024-11-13 17:03:59,581 - INFO - Ollama server is running.
+2024-11-13 17:03:59,582 - INFO - Found 91 Java files.
+
+2024-11-13 17:03:59,582 - INFO - Adding Javadoc with cross-references...
+2024-11-13 17:04:08,186 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 17:04:37,030 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 17:06:07,308 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 17:07:09,613 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 17:08:16,496 - WARNING - Formato de Javadoc inválido recebido para class: public class CalculatePerUomPricesStep implements BasePricingStep<Void> {
+
+	private static final Logger LOGGER = LoggerFactory.getLogger(CalculatePerUomPricesStep.class);
+	private static final String INVALID_PRICE_LOG_MESSAGE = "Price per UoM calculation failed. Caused by Zero or null price. Price data: {} Item data: {}";
+
+	private static CalculatePerUomPricesStep instance;
+	private final CalculateValidPricesPerUomService calculateValidPricesPerUomService;
+
+	private CalculatePerUomPricesStep() {
+
+		calculateValidPricesPerUomService = CalculateValidPricesPerUomService.getInstance();
+	}
+
+	public static CalculatePerUomPricesStep getInstance() {
+
+		if (isNull(instance)) {
+			instance = new CalculatePerUomPricesStep();
+		}
+
+		return instance;
+	}
+
+	@Override
+	public Pair<StepResultType, Void> process(final PricingEngineData input, final Map<StepResultType, ?> previousResults,
+			final Object... params)
+			throws PricingStepException {
+
+		final List<String> invalidVendorItemIdsList = new ArrayList<>();
+		input.getCustomerPricingFact().getPricesByVendorItemId().values().forEach(priceFact -> {
+
+			final ItemFact itemFact = input.getCustomerPricingFact().getItemsByVendorItemId().get(priceFact.getVendorItemId());
+
+			if (!calculateValidPricesPerUomService.execute(priceFact, itemFact)) {
+				invalidVendorItemIdsList.add(priceFact.getVendorItemId());
+			}
+		});
+
+		removeInvalidItemsFromInput(input, invalidVendorItemIdsList);
+
+		return null;
+	}
+
+	private void removeInvalidItemsFromInput(final PricingEngineData input, final List<String> invalidVendorItemIdsList) {
+
+		invalidVendorItemIdsList.forEach(vendorItemId -> {
+			LOGGER.warn(INVALID_PRICE_LOG_MESSAGE, input.getCustomerPricingFact().getPricesByVendorItemId().get(vendorItemId),
+					input.getCustomerPricingFact().getItemsByVendorItemId().get(vendorItemId));
+			input.getCustomerPricingFact().getPricesByVendorItemId().remove(vendorItemId);
+		});
+	}
+}
+2024-11-13 17:08:25,187 - WARNING - Formato de Javadoc inválido recebido para class: public interface BasePricingStep<O> {
+
+	Pair<StepResultType, O> process(PricingEngineData input, Map<StepResultType, ?> previousResults, Object... params)
+			throws PricingStepException;
+}
+2024-11-13 17:08:25,187 - INFO - Processing complete.
+2024-11-13 17:08:25,187 - INFO - File processed successfully: /home/jackson-sa/Projects/pricing-engine/java/pricing-module/src/main/java/com/abinbev/b2b/pricing/module/step/BasePricingStep.java
+2024-11-13 17:08:49,011 - WARNING - Formato de Javadoc inválido recebido para class: public class CalculateDiscountsByRangeStep implements BasePricingStep<CalculateDiscountsByRangeStepResult> {
+
+    private static CalculateDiscountsByRangeStep instance;
+    private final DiscountCalculationService discountCalculationService;
+
+    private CalculateDiscountsByRangeStep() {
+
+        discountCalculationService = DiscountCalculationService.getInstance();
+    }
+
+    public static CalculateDiscountsByRangeStep getInstance() {
+
+        if (isNull(instance)) {
+            instance = new CalculateDiscountsByRangeStep();
+        }
+        return instance;
+    }
+
+    @Override
+    public Pair<StepResultType, CalculateDiscountsByRangeStepResult> process(final PricingEngineData input,
+                                                                             final Map<StepResultType, ?> previousResults, final Object... params) throws PricingStepException {
+
+        final GroupRangesByRangeStartAndVendorItemIdStepResult groupRangesByRangeStartAndVendorItemIdStepResult =
+                (GroupRangesByRangeStartAndVendorItemIdStepResult) previousResults.get(
+                        StepResultType.GROUP_RANGES_BY_RANGE_START_AND_VENDOR_ITEM_ID);
+
+        final CalculatePriceChargeStepResult calculatePriceChargeStepResult = (CalculatePriceChargeStepResult) previousResults.get(
+                StepResultType.CALCULATE_PRICE_CHARGE);
+
+        if (MapUtils.isEmpty(groupRangesByRangeStartAndVendorItemIdStepResult.getGroupedRangesDiscountsByVendorItemId())) {
+            return Pair.with(StepResultType.CALCULATE_DISCOUNTS_BY_RANGE, new CalculateDiscountsByRangeStepResult());
+        }
+
+        return Pair.with(StepResultType.CALCULATE_DISCOUNTS_BY_RANGE, calculateItemDiscountsByRange(input,
+                groupRangesByRangeStartAndVendorItemIdStepResult.getGroupedRangesDiscountsByVendorItemId(),
+                calculatePriceChargeStepResult.getUnitChargeAmountWithoutTaxByVendorItemId()));
+    }
+
+    private CalculateDiscountsByRangeStepResult calculateItemDiscountsByRange(final PricingEngineData input,
+                                                                              final Map<String, Map<Integer, List<RangeDiscount>>> groupedRangesDiscountsByVendorItemId,
+                                                                              final Map<String, BigDecimal> unitChargeAmountWithoutTaxByVendorItemId) {
+
+        final Map<String, Map<Integer, List<CalculatedRangeDiscount>>> calculatedRangesDiscountsByRangeByVendorItemId = new LinkedHashMap<>();
+
+        groupedRangesDiscountsByVendorItemId.forEach((vendorItemId, groupedRangesDiscountsByRange) -> {
+
+            final Map<Integer, List<CalculatedRangeDiscount>> calculatedItemsDiscountForVendorItemId = calculateItemDiscountForVendorItemId(
+                    vendorItemId, groupedRangesDiscountsByRange, unitChargeAmountWithoutTaxByVendorItemId, input);
+
+            calculatedRangesDiscountsByRangeByVendorItemId.put(vendorItemId, calculatedItemsDiscountForVendorItemId);
+        });
+
+        final CalculateDiscountsByRangeStepResult calculateItemDiscountsByRangeResult = new CalculateDiscountsByRangeStepResult();
+        calculateItemDiscountsByRangeResult.setCalculatedRangesDiscountsByRangeByVendorItemId(
+                calculatedRangesDiscountsByRangeByVendorItemId);
+
+        return calculateItemDiscountsByRangeResult;
+    }
+
+    private Map<Integer, List<CalculatedRangeDiscount>> calculateItemDiscountForVendorItemId(final String vendorItemId,
+                                                                                             final Map<Integer, List<RangeDiscount>> groupedRangesDiscountsByRange,
+                                                                                             final Map<String, BigDecimal> unitChargeAmountWithoutTaxByVendorItemId, final PricingEngineData input) {
+
+        final Map<Integer, List<CalculatedRangeDiscount>> calculatedRangesDiscountsByRange = new LinkedHashMap<>();
+
+        groupedRangesDiscountsByRange.forEach((from, groupedRangesDiscounts) -> {
+
+            final List<CalculatedRangeDiscount> calculatedRangeDiscounts = calculateRangeDiscountsForRange(vendorItemId,
+                    groupedRangesDiscounts, unitChargeAmountWithoutTaxByVendorItemId, input);
+
+            calculatedRangesDiscountsByRange.put(from, calculatedRangeDiscounts);
+
+        });
+
+        return calculatedRangesDiscountsByRange;
+    }
+
+    private List<CalculatedRangeDiscount> calculateRangeDiscountsForRange(final String vendorItemId,
+                                                                          final List<RangeDiscount> groupedRangesDiscounts, final Map<String, BigDecimal> unitChargeAmountWithoutTaxByVendorItemId,
+                                                                          final PricingEngineData input) {
+
+        return groupedRangesDiscounts.stream().map(rangeDiscount -> calculateRangeDiscount(vendorItemId,
+                        unitChargeAmountWithoutTaxByVendorItemId, input, rangeDiscount))
+                .collect(Collectors.toCollection(ArrayList::new));
+    }
+
+    private CalculatedRangeDiscount calculateRangeDiscount(final String vendorItemId,
+                                                           final Map<String, BigDecimal> unitChargeAmountWithoutTaxByVendorItemId, final PricingEngineData input,
+                                                           final RangeDiscount rangeDiscount) {
+
+        final DealItemDiscountFact dealLineItemDiscountFact = new DealLineItemDiscountFact(rangeDiscount.getDiscountType(),
+                rangeDiscount.getValue(), null, 1, null, null, null, null);
+
+        final BigDecimal discountAmount = calculateDiscountAmount(dealLineItemDiscountFact, input, vendorItemId,
+                unitChargeAmountWithoutTaxByVendorItemId.get(vendorItemId));
+        CalculatedRangeDiscount calculatedRangeDiscount;
+
+        if(TogglesHelper.isCodeToggleEnabled(ToggleValues.BEESDTCPL_5089)){
+            calculatedRangeDiscount = new CalculatedRangeDiscount(rangeDiscount.getDealId(),
+                    rangeDiscount.getPromotionId(), rangeDiscount.getType(), OutputTypeEnum.getOutputType(rangeDiscount.getDiscountType()), rangeDiscount.getFrom(), rangeDiscount.getTo(),
+                    discountAmount, rangeDiscount.getSimulationDateTime());
+        } else {
+            calculatedRangeDiscount = new CalculatedRangeDiscount(rangeDiscount.getDealId(),
+                    rangeDiscount.getPromotionId(), rangeDiscount.getType(), OutputTypeEnum.getOutputType(rangeDiscount.getDiscountType()), rangeDiscount.getFrom(), rangeDiscount.getTo(),
+                    discountAmount);
+        }
+
+        calculatedRangeDiscount.setNormalizedDealInfo(
+                createDealNormalizedInfo(input.getCustomerPricingFact().getDealsById().get(rangeDiscount.getDealId()),
+                        dealLineItemDiscountFact));
+
+        return calculatedRangeDiscount;
+    }
+
+    private NormalizedDealInfo createDealNormalizedInfo(final DealFact dealFact, final DealItemDiscountFact dealItemDiscountFact) {
+
+        final NormalizedDealInfo normalizedDealInfo = new NormalizedDealInfo();
+
+        normalizedDealInfo.setOriginalDealFact(dealFact);
+        normalizedDealInfo.setCompatibleDealItemDiscountFact(dealItemDiscountFact);
+
+        return normalizedDealInfo;
+    }
+
+    private BigDecimal calculateDiscountAmount(final DealItemDiscountFact dealItemDiscountFact, final PricingEngineData input,
+                                               final String vendorItemId, final BigDecimal unitChargeAmountWithoutTax) {
+
+        final PricingConfigurationFact pricingConfiguration = input.getCustomerPricingFact().getPricingConfiguration();
+        final PriceFact priceFact = input.getCustomerPricingFact().getPricesByVendorItemId().get(vendorItemId);
+
+        return discountCalculationService.calculateDiscountAmountOnSku(dealItemDiscountFact, pricingConfiguration,
+                unitChargeAmountWithoutTax, priceFact.getMinimumPrice(), priceFact.getBasePrice(), 1, null, false);
+    }
+
+}
+2024-11-13 17:12:31,525 - INFO - 
+Repository directory set to: /home/jackson-sa/Projects/pricing-engine/java/pricing-module/src/main/java/com/abinbev/b2b/pricing/module/step
+
+2024-11-13 17:12:31,568 - INFO - Ollama3 is already installed.
+2024-11-13 17:12:31,571 - INFO - HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2024-11-13 17:12:31,571 - INFO - Model 'llama3.2' is already available.
+2024-11-13 17:12:31,571 - INFO - Starting the Ollama server...
+2024-11-13 17:12:31,571 - INFO - Ollama server started. Waiting for initialization...
+2024-11-13 17:12:46,587 - INFO - Ollama server is running.
+2024-11-13 17:12:46,589 - INFO - Found 91 Java files.
+
+2024-11-13 17:12:46,590 - INFO - Adding Javadoc with cross-references...
+2024-11-13 17:13:09,030 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 17:13:15,849 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 17:13:51,194 - WARNING - Invalid Javadoc format received for class: public interface BasePricingStep<O> {
+
+	Pair<StepResultType, O> process(PricingEngineData input, Map<StepResultType, ?> previousResults, Object... params)
+			throws PricingStepException;
+}
+2024-11-13 17:13:51,194 - INFO - Using default Javadoc for class: public interface BasePricingStep<O> {
+
+	Pair<StepResultType, O> process(PricingEngineData input, Map<StepResultType, ?> previousResults, Object... params)
+			throws PricingStepException;
+}
+2024-11-13 17:13:51,194 - INFO - File processed successfully: /home/jackson-sa/Projects/pricing-engine/java/pricing-module/src/main/java/com/abinbev/b2b/pricing/module/step/BasePricingStep.java
+2024-11-13 17:14:07,493 - WARNING - Invalid Javadoc format received for class: public class CalculatePerUomPricesStep implements BasePricingStep<Void> {
+
+	private static final Logger LOGGER = LoggerFactory.getLogger(CalculatePerUomPricesStep.class);
+	private static final String INVALID_PRICE_LOG_MESSAGE = "Price per UoM calculation failed. Caused by Zero or null price. Price data: {} Item data: {}";
+
+	private static CalculatePerUomPricesStep instance;
+	private final CalculateValidPricesPerUomService calculateValidPricesPerUomService;
+
+	private CalculatePerUomPricesStep() {
+
+		calculateValidPricesPerUomService = CalculateValidPricesPerUomService.getInstance();
+	}
+
+	public static CalculatePerUomPricesStep getInstance() {
+
+		if (isNull(instance)) {
+			instance = new CalculatePerUomPricesStep();
+		}
+
+		return instance;
+	}
+
+	@Override
+	public Pair<StepResultType, Void> process(final PricingEngineData input, final Map<StepResultType, ?> previousResults,
+			final Object... params)
+			throws PricingStepException {
+
+		final List<String> invalidVendorItemIdsList = new ArrayList<>();
+		input.getCustomerPricingFact().getPricesByVendorItemId().values().forEach(priceFact -> {
+
+			final ItemFact itemFact = input.getCustomerPricingFact().getItemsByVendorItemId().get(priceFact.getVendorItemId());
+
+			if (!calculateValidPricesPerUomService.execute(priceFact, itemFact)) {
+				invalidVendorItemIdsList.add(priceFact.getVendorItemId());
+			}
+		});
+
+		removeInvalidItemsFromInput(input, invalidVendorItemIdsList);
+
+		return null;
+	}
+
+	private void removeInvalidItemsFromInput(final PricingEngineData input, final List<String> invalidVendorItemIdsList) {
+
+		invalidVendorItemIdsList.forEach(vendorItemId -> {
+			LOGGER.warn(INVALID_PRICE_LOG_MESSAGE, input.getCustomerPricingFact().getPricesByVendorItemId().get(vendorItemId),
+					input.getCustomerPricingFact().getItemsByVendorItemId().get(vendorItemId));
+			input.getCustomerPricingFact().getPricesByVendorItemId().remove(vendorItemId);
+		});
+	}
+}
+2024-11-13 17:14:07,493 - INFO - Using default Javadoc for class: public class CalculatePerUomPricesStep implements BasePricingStep<Void> {
+
+	private static final Logger LOGGER = LoggerFactory.getLogger(CalculatePerUomPricesStep.class);
+	private static final String INVALID_PRICE_LOG_MESSAGE = "Price per UoM calculation failed. Caused by Zero or null price. Price data: {} Item data: {}";
+
+	private static CalculatePerUomPricesStep instance;
+	private final CalculateValidPricesPerUomService calculateValidPricesPerUomService;
+
+	private CalculatePerUomPricesStep() {
+
+		calculateValidPricesPerUomService = CalculateValidPricesPerUomService.getInstance();
+	}
+
+	public static CalculatePerUomPricesStep getInstance() {
+
+		if (isNull(instance)) {
+			instance = new CalculatePerUomPricesStep();
+		}
+
+		return instance;
+	}
+
+	@Override
+	public Pair<StepResultType, Void> process(final PricingEngineData input, final Map<StepResultType, ?> previousResults,
+			final Object... params)
+			throws PricingStepException {
+
+		final List<String> invalidVendorItemIdsList = new ArrayList<>();
+		input.getCustomerPricingFact().getPricesByVendorItemId().values().forEach(priceFact -> {
+
+			final ItemFact itemFact = input.getCustomerPricingFact().getItemsByVendorItemId().get(priceFact.getVendorItemId());
+
+			if (!calculateValidPricesPerUomService.execute(priceFact, itemFact)) {
+				invalidVendorItemIdsList.add(priceFact.getVendorItemId());
+			}
+		});
+
+		removeInvalidItemsFromInput(input, invalidVendorItemIdsList);
+
+		return null;
+	}
+
+	private void removeInvalidItemsFromInput(final PricingEngineData input, final List<String> invalidVendorItemIdsList) {
+
+		invalidVendorItemIdsList.forEach(vendorItemId -> {
+			LOGGER.warn(INVALID_PRICE_LOG_MESSAGE, input.getCustomerPricingFact().getPricesByVendorItemId().get(vendorItemId),
+					input.getCustomerPricingFact().getItemsByVendorItemId().get(vendorItemId));
+			input.getCustomerPricingFact().getPricesByVendorItemId().remove(vendorItemId);
+		});
+	}
+}
+2024-11-13 17:15:00,643 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 17:16:23,634 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 17:17:25,236 - WARNING - Invalid Javadoc format received for class: public class CalculatePriceReductionStep implements BasePricingStep<CalculatePriceReductionStepResult> {
+
+	private static CalculatePriceReductionStep instance;
+
+	private final CalculateDealsApplicableToLineItemsFromLevelsService calculateDealsApplicableToLineItemsFromLevelsService;
+
+	private CalculatePriceReductionStep() {
+
+		calculateDealsApplicableToLineItemsFromLevelsService = CalculateDealsApplicableToLineItemsFromLevelsService.getInstance();
+	}
+
+	public static CalculatePriceReductionStep getInstance() {
+
+		if (isNull(instance)) {
+			instance = new CalculatePriceReductionStep();
+		}
+
+		return instance;
+	}
+
+	@Override
+	public Pair<StepResultType, CalculatePriceReductionStepResult> process(final PricingEngineData input,
+			final Map<StepResultType, ?> previousResults, final Object... params) throws PricingStepException {
+
+		final FilterValidDealsStepResult filterValidDealsStepResult = (FilterValidDealsStepResult) previousResults.get(
+				StepResultType.FILTER_VALID_DEALS);
+		final CalculatePriceChargeStepResult calculatePriceChargeStepResult = (CalculatePriceChargeStepResult) previousResults.get(
+				StepResultType.CALCULATE_PRICE_CHARGE);
+
+		final List<DealFact> dealFactPriceReductionList = filterValidDealsStepResult.getFilteredDeals().stream()
+				.filter(dealFact -> PRICE_REDUCTION.equals(dealFact.getType())).collect(Collectors.toCollection(ArrayList::new));
+
+		final CalculatePriceReductionStepResult calculatePriceReductionStepResult = createCalculatePriceReductionStepResult(
+				getNormalizedDealInfoListAndPriceItemDiscountDetailListPair(input.getCustomerPricingFact(), dealFactPriceReductionList,
+						calculatePriceChargeStepResult));
+
+		return new Pair<>(CALCULATE_PRICE_REDUCTION, calculatePriceReductionStepResult);
+	}
+
+	private Pair<Map<String, List<NormalizedDealInfo>>, Map<String, List<PriceItemDiscountDetail>>> getNormalizedDealInfoListAndPriceItemDiscountDetailListPair(
+			final CustomerPricingFact customerPricingFact, final List<DealFact> dealFactPriceReductionList,
+			final CalculatePriceChargeStepResult calculatePriceChargeStepResult) {
+
+		final Map<String, List<NormalizedDealInfo>> priceReductionsNormalizedByVendorItemId = new HashMap<>();
+		final Map<String, List<PriceItemDiscountDetail>> priceItemDiscountDetailListByVendorItemId = new HashMap<>();
+
+		customerPricingFact.getPricesByVendorItemId().forEach((vendorItemId, priceFact) -> {
+
+			final List<NormalizedDealInfo> normalizedDealInfoList = getDealFactPriceReductionPriceFactRelatedList(vendorItemId,
+					dealFactPriceReductionList).stream().map(this::createNormalizedDealInfo).collect(Collectors.toCollection(ArrayList::new));
+
+			if (isNotEmpty(normalizedDealInfoList)) {
+
+				final PricingConfigurationFact pricingConfigurationFact = customerPricingFact.getPricingConfiguration();
+				final BigDecimal unitChargePriceAmountWithoutTax = calculatePriceChargeStepResult.getUnitChargeAmountWithoutTaxByVendorItemId()
+						.getOrDefault(vendorItemId, BigDecimal.ZERO);
+
+				final List<PriceItemDiscountDetail> priceItemDiscountDetailList = calculateDealsApplicableToLineItemsFromLevelsService.execute(
+						pricingConfigurationFact, 1, priceFact.getMinimumPrice(), priceFact.getBasePrice(), unitChargePriceAmountWithoutTax,
+						normalizedDealInfoList);
+				if (isNotEmpty(priceItemDiscountDetailList)) {
+					priceReductionsNormalizedByVendorItemId.put(vendorItemId, normalizedDealInfoList);
+					priceItemDiscountDetailListByVendorItemId.put(vendorItemId, priceItemDiscountDetailList);
+				}
+			}
+		});
+
+		return Pair.with(priceReductionsNormalizedByVendorItemId, priceItemDiscountDetailListByVendorItemId);
+	}
+
+	private List<DealFact> getDealFactPriceReductionPriceFactRelatedList(final String vendorItemId,
+			final List<DealFact> dealFactPriceReductionList) {
+
+		return dealFactPriceReductionList.stream().filter(dealFact -> {
+
+			final boolean containsVendorItemIdInLineItemCondition = isNull(dealFact.getConditions())
+					|| isNull(dealFact.getConditions().getLineItem())
+					|| (isNotEmpty(dealFact.getConditions().getLineItem().getVendorItemIds())
+						&& (dealFact.getConditions().getLineItem().getVendorItemIds().contains(vendorItemId)));
+			final boolean containsVendorItemIdInLineItemDiscountOutput = nonNull(dealFact.getOutput().getLineItemDiscount())
+					&& isNotEmpty(dealFact.getOutput().getLineItemDiscount().getVendorItemIds())
+					&& dealFact.getOutput().getLineItemDiscount().getVendorItemIds().contains(vendorItemId);
+
+			return containsVendorItemIdInLineItemCondition && containsVendorItemIdInLineItemDiscountOutput;
+		}).collect(Collectors.toCollection(ArrayList::new));
+	}
+
+	private NormalizedDealInfo createNormalizedDealInfo(final DealFact dealFact) {
+
+		final NormalizedDealInfo normalizedDealInfo = new NormalizedDealInfo();
+		normalizedDealInfo.setOriginalDealFact(dealFact);
+
+		final DealItemDiscountFact dealItemDiscountFact = new DealLineItemDiscountFact(dealFact.getOutput().getLineItemDiscount().getType(),
+				dealFact.getOutput().getLineItemDiscount().getValue(), 1);
+		normalizedDealInfo.setCompatibleDealItemDiscountFact(dealItemDiscountFact);
+
+		return normalizedDealInfo;
+	}
+
+	private Map<String, BigDecimal> createPriceReductionsAmountByVendorItemId(
+			final Map<String, List<PriceItemDiscountDetail>> priceItemDiscountDetailListByVendorItemId) {
+
+		return priceItemDiscountDetailListByVendorItemId.entrySet().stream().collect(toMap(Map.Entry::getKey,
+				priceItemDiscountDetailList -> priceItemDiscountDetailList.getValue().stream().map(PriceItemDiscountDetail::getDiscount)
+						.reduce(BigDecimal.ZERO, BigDecimal::add)));
+	}
+
+	private CalculatePriceReductionStepResult createCalculatePriceReductionStepResult(
+			final Pair<Map<String, List<NormalizedDealInfo>>, Map<String, List<PriceItemDiscountDetail>>> normalizedDealInfoListAndPriceItemDiscountDetailListPair) {
+
+		final Map<String, List<NormalizedDealInfo>> priceReductionsNormalizedByVendorItemId = normalizedDealInfoListAndPriceItemDiscountDetailListPair.getValue0();
+		final Map<String, BigDecimal> priceReductionsAmountByVendorItemId = createPriceReductionsAmountByVendorItemId(
+				normalizedDealInfoListAndPriceItemDiscountDetailListPair.getValue1());
+
+		return new CalculatePriceReductionStepResult(priceReductionsAmountByVendorItemId, priceReductionsNormalizedByVendorItemId);
+	}
+}
+2024-11-13 17:17:25,236 - INFO - Using default Javadoc for class: public class CalculatePriceReductionStep implements BasePricingStep<CalculatePriceReductionStepResult> {
+
+	private static CalculatePriceReductionStep instance;
+
+	private final CalculateDealsApplicableToLineItemsFromLevelsService calculateDealsApplicableToLineItemsFromLevelsService;
+
+	private CalculatePriceReductionStep() {
+
+		calculateDealsApplicableToLineItemsFromLevelsService = CalculateDealsApplicableToLineItemsFromLevelsService.getInstance();
+	}
+
+	public static CalculatePriceReductionStep getInstance() {
+
+		if (isNull(instance)) {
+			instance = new CalculatePriceReductionStep();
+		}
+
+		return instance;
+	}
+
+	@Override
+	public Pair<StepResultType, CalculatePriceReductionStepResult> process(final PricingEngineData input,
+			final Map<StepResultType, ?> previousResults, final Object... params) throws PricingStepException {
+
+		final FilterValidDealsStepResult filterValidDealsStepResult = (FilterValidDealsStepResult) previousResults.get(
+				StepResultType.FILTER_VALID_DEALS);
+		final CalculatePriceChargeStepResult calculatePriceChargeStepResult = (CalculatePriceChargeStepResult) previousResults.get(
+				StepResultType.CALCULATE_PRICE_CHARGE);
+
+		final List<DealFact> dealFactPriceReductionList = filterValidDealsStepResult.getFilteredDeals().stream()
+				.filter(dealFact -> PRICE_REDUCTION.equals(dealFact.getType())).collect(Collectors.toCollection(ArrayList::new));
+
+		final CalculatePriceReductionStepResult calculatePriceReductionStepResult = createCalculatePriceReductionStepResult(
+				getNormalizedDealInfoListAndPriceItemDiscountDetailListPair(input.getCustomerPricingFact(), dealFactPriceReductionList,
+						calculatePriceChargeStepResult));
+
+		return new Pair<>(CALCULATE_PRICE_REDUCTION, calculatePriceReductionStepResult);
+	}
+
+	private Pair<Map<String, List<NormalizedDealInfo>>, Map<String, List<PriceItemDiscountDetail>>> getNormalizedDealInfoListAndPriceItemDiscountDetailListPair(
+			final CustomerPricingFact customerPricingFact, final List<DealFact> dealFactPriceReductionList,
+			final CalculatePriceChargeStepResult calculatePriceChargeStepResult) {
+
+		final Map<String, List<NormalizedDealInfo>> priceReductionsNormalizedByVendorItemId = new HashMap<>();
+		final Map<String, List<PriceItemDiscountDetail>> priceItemDiscountDetailListByVendorItemId = new HashMap<>();
+
+		customerPricingFact.getPricesByVendorItemId().forEach((vendorItemId, priceFact) -> {
+
+			final List<NormalizedDealInfo> normalizedDealInfoList = getDealFactPriceReductionPriceFactRelatedList(vendorItemId,
+					dealFactPriceReductionList).stream().map(this::createNormalizedDealInfo).collect(Collectors.toCollection(ArrayList::new));
+
+			if (isNotEmpty(normalizedDealInfoList)) {
+
+				final PricingConfigurationFact pricingConfigurationFact = customerPricingFact.getPricingConfiguration();
+				final BigDecimal unitChargePriceAmountWithoutTax = calculatePriceChargeStepResult.getUnitChargeAmountWithoutTaxByVendorItemId()
+						.getOrDefault(vendorItemId, BigDecimal.ZERO);
+
+				final List<PriceItemDiscountDetail> priceItemDiscountDetailList = calculateDealsApplicableToLineItemsFromLevelsService.execute(
+						pricingConfigurationFact, 1, priceFact.getMinimumPrice(), priceFact.getBasePrice(), unitChargePriceAmountWithoutTax,
+						normalizedDealInfoList);
+				if (isNotEmpty(priceItemDiscountDetailList)) {
+					priceReductionsNormalizedByVendorItemId.put(vendorItemId, normalizedDealInfoList);
+					priceItemDiscountDetailListByVendorItemId.put(vendorItemId, priceItemDiscountDetailList);
+				}
+			}
+		});
+
+		return Pair.with(priceReductionsNormalizedByVendorItemId, priceItemDiscountDetailListByVendorItemId);
+	}
+
+	private List<DealFact> getDealFactPriceReductionPriceFactRelatedList(final String vendorItemId,
+			final List<DealFact> dealFactPriceReductionList) {
+
+		return dealFactPriceReductionList.stream().filter(dealFact -> {
+
+			final boolean containsVendorItemIdInLineItemCondition = isNull(dealFact.getConditions())
+					|| isNull(dealFact.getConditions().getLineItem())
+					|| (isNotEmpty(dealFact.getConditions().getLineItem().getVendorItemIds())
+						&& (dealFact.getConditions().getLineItem().getVendorItemIds().contains(vendorItemId)));
+			final boolean containsVendorItemIdInLineItemDiscountOutput = nonNull(dealFact.getOutput().getLineItemDiscount())
+					&& isNotEmpty(dealFact.getOutput().getLineItemDiscount().getVendorItemIds())
+					&& dealFact.getOutput().getLineItemDiscount().getVendorItemIds().contains(vendorItemId);
+
+			return containsVendorItemIdInLineItemCondition && containsVendorItemIdInLineItemDiscountOutput;
+		}).collect(Collectors.toCollection(ArrayList::new));
+	}
+
+	private NormalizedDealInfo createNormalizedDealInfo(final DealFact dealFact) {
+
+		final NormalizedDealInfo normalizedDealInfo = new NormalizedDealInfo();
+		normalizedDealInfo.setOriginalDealFact(dealFact);
+
+		final DealItemDiscountFact dealItemDiscountFact = new DealLineItemDiscountFact(dealFact.getOutput().getLineItemDiscount().getType(),
+				dealFact.getOutput().getLineItemDiscount().getValue(), 1);
+		normalizedDealInfo.setCompatibleDealItemDiscountFact(dealItemDiscountFact);
+
+		return normalizedDealInfo;
+	}
+
+	private Map<String, BigDecimal> createPriceReductionsAmountByVendorItemId(
+			final Map<String, List<PriceItemDiscountDetail>> priceItemDiscountDetailListByVendorItemId) {
+
+		return priceItemDiscountDetailListByVendorItemId.entrySet().stream().collect(toMap(Map.Entry::getKey,
+				priceItemDiscountDetailList -> priceItemDiscountDetailList.getValue().stream().map(PriceItemDiscountDetail::getDiscount)
+						.reduce(BigDecimal.ZERO, BigDecimal::add)));
+	}
+
+	private CalculatePriceReductionStepResult createCalculatePriceReductionStepResult(
+			final Pair<Map<String, List<NormalizedDealInfo>>, Map<String, List<PriceItemDiscountDetail>>> normalizedDealInfoListAndPriceItemDiscountDetailListPair) {
+
+		final Map<String, List<NormalizedDealInfo>> priceReductionsNormalizedByVendorItemId = normalizedDealInfoListAndPriceItemDiscountDetailListPair.getValue0();
+		final Map<String, BigDecimal> priceReductionsAmountByVendorItemId = createPriceReductionsAmountByVendorItemId(
+				normalizedDealInfoListAndPriceItemDiscountDetailListPair.getValue1());
+
+		return new CalculatePriceReductionStepResult(priceReductionsAmountByVendorItemId, priceReductionsNormalizedByVendorItemId);
+	}
+}
+2024-11-13 17:42:14,228 - INFO - 
+Repository directory set to: /home/jackson-sa/Projects/pricing-engine/java/pricing-module/src/main/java/com/abinbev/b2b/pricing/module/step/charge
+
+2024-11-13 17:42:14,274 - INFO - Ollama3 is already installed.
+2024-11-13 17:42:14,277 - INFO - HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2024-11-13 17:42:14,277 - INFO - Model 'llama3.2' is already available.
+2024-11-13 17:42:14,277 - INFO - Starting the Ollama server...
+2024-11-13 17:42:14,277 - INFO - Ollama server started. Waiting for initialization...
+2024-11-13 17:42:29,290 - INFO - Ollama server is running.
+2024-11-13 17:42:29,291 - INFO - Found 19 Java files.
+
+2024-11-13 17:42:29,291 - INFO - Adding Javadoc with cross-references...
+2024-11-13 17:42:47,674 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 17:43:21,610 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 17:43:50,374 - WARNING - Invalid Javadoc format received for class: CalculateGeneralChargeTotalStep
+2024-11-13 17:43:50,374 - INFO - Using default Javadoc for class: CalculateGeneralChargeTotalStep
+2024-11-13 17:43:54,771 - WARNING - Invalid Javadoc format received for class: CalculatePaymentMethodFeeStep
+2024-11-13 17:43:54,771 - INFO - Using default Javadoc for class: CalculatePaymentMethodFeeStep
+2024-11-13 17:44:44,845 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 17:46:20,396 - INFO - 
+Repository directory set to: /home/jackson-sa/Projects/pricing-engine/java/pricing-module/src/main/java/com/abinbev/b2b/pricing/module/step/charge
+
+2024-11-13 17:46:20,442 - INFO - Ollama3 is already installed.
+2024-11-13 17:46:20,445 - INFO - HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2024-11-13 17:46:20,445 - INFO - Model 'llama3.2' is already available.
+2024-11-13 17:46:20,445 - INFO - Starting the Ollama server...
+2024-11-13 17:46:20,445 - INFO - Ollama server started. Waiting for initialization...
+2024-11-13 17:46:35,460 - INFO - Ollama server is running.
+2024-11-13 17:46:35,461 - INFO - Found 19 Java files.
+
+2024-11-13 17:46:35,461 - INFO - Adding Javadoc with cross-references...
+2024-11-13 17:46:35,484 - ERROR - Error processing /home/jackson-sa/Projects/pricing-engine/java/pricing-module/src/main/java/com/abinbev/b2b/pricing/module/step/charge/ApplyChargesInLineItemStep.java: 'class_prompt'
+2024-11-13 17:46:35,484 - ERROR - Error processing /home/jackson-sa/Projects/pricing-engine/java/pricing-module/src/main/java/com/abinbev/b2b/pricing/module/step/charge/ApplyOverPriceAfterDiscountsStep.java: 'class_prompt'
+2024-11-13 17:46:35,484 - ERROR - Error processing /home/jackson-sa/Projects/pricing-engine/java/pricing-module/src/main/java/com/abinbev/b2b/pricing/module/step/charge/CalculateGeneralChargeTotalStep.java: 'class_prompt'
+2024-11-13 17:46:35,484 - ERROR - Error processing /home/jackson-sa/Projects/pricing-engine/java/pricing-module/src/main/java/com/abinbev/b2b/pricing/module/step/charge/PaymentMethodFeeCalculationStep.java: 'class_prompt'
+2024-11-13 17:46:35,484 - ERROR - Error processing /home/jackson-sa/Projects/pricing-engine/java/pricing-module/src/main/java/com/abinbev/b2b/pricing/module/step/charge/LoanDeductionFeeStep.java: 'class_prompt'
+2024-11-13 17:46:35,484 - ERROR - Error processing /home/jackson-sa/Projects/pricing-engine/java/pricing-module/src/main/java/com/abinbev/b2b/pricing/module/step/charge/SummaryInterestsStep.java: 'class_prompt'
+2024-11-13 17:46:35,484 - ERROR - Error processing /home/jackson-sa/Projects/pricing-engine/java/pricing-module/src/main/java/com/abinbev/b2b/pricing/module/step/charge/CalculatePaymentMethodFeeStep.java: 'class_prompt'
+2024-11-13 17:46:35,484 - ERROR - Error processing /home/jackson-sa/Projects/pricing-engine/java/pricing-module/src/main/java/com/abinbev/b2b/pricing/module/step/charge/GenerateSimulationSummaryStep.java: 'class_prompt'
+2024-11-13 17:46:35,491 - ERROR - Error processing /home/jackson-sa/Projects/pricing-engine/java/pricing-module/src/main/java/com/abinbev/b2b/pricing/module/step/charge/ApplyFilterOnChargesStep.java: 'class_prompt'
+2024-11-13 17:46:35,493 - ERROR - Error processing /home/jackson-sa/Projects/pricing-engine/java/pricing-module/src/main/java/com/abinbev/b2b/pricing/module/step/charge/CalculateAlternativeDeliveryDateFeeStep.java: 'class_prompt'
+2024-11-13 17:46:35,493 - ERROR - Error processing /home/jackson-sa/Projects/pricing-engine/java/pricing-module/src/main/java/com/abinbev/b2b/pricing/module/step/charge/CalculatePriceItemConsolidatedStep.java: 'class_prompt'
+2024-11-13 17:46:35,493 - ERROR - Error processing /home/jackson-sa/Projects/pricing-engine/java/pricing-module/src/main/java/com/abinbev/b2b/pricing/module/step/charge/DeliveryFeeCalculationStep.java: 'class_prompt'
+2024-11-13 17:46:35,493 - ERROR - Error processing /home/jackson-sa/Projects/pricing-engine/java/pricing-module/src/main/java/com/abinbev/b2b/pricing/module/step/charge/ChargePreviewStep.java: 'class_prompt'
+2024-11-13 17:46:35,493 - ERROR - Error processing /home/jackson-sa/Projects/pricing-engine/java/pricing-module/src/main/java/com/abinbev/b2b/pricing/module/step/charge/ApplyOverPriceBeforeDiscountsStep.java: 'class_prompt'
+2024-11-13 17:46:35,493 - ERROR - Error processing /home/jackson-sa/Projects/pricing-engine/java/pricing-module/src/main/java/com/abinbev/b2b/pricing/module/step/charge/CalculateGeneralChargeBasePriceAfterDiscountStep.java: 'class_prompt'
+2024-11-13 17:46:35,493 - ERROR - Error processing /home/jackson-sa/Projects/pricing-engine/java/pricing-module/src/main/java/com/abinbev/b2b/pricing/module/step/charge/ApplyChargesStep.java: 'class_prompt'
+2024-11-13 17:46:35,493 - ERROR - Error processing /home/jackson-sa/Projects/pricing-engine/java/pricing-module/src/main/java/com/abinbev/b2b/pricing/module/step/charge/ChargePreviewV2Step.java: 'class_prompt'
+2024-11-13 17:46:35,493 - ERROR - Error processing /home/jackson-sa/Projects/pricing-engine/java/pricing-module/src/main/java/com/abinbev/b2b/pricing/module/step/charge/CalculateGeneralChargeLineItemStep.java: 'class_prompt'
+2024-11-13 17:46:35,493 - ERROR - Error processing /home/jackson-sa/Projects/pricing-engine/java/pricing-module/src/main/java/com/abinbev/b2b/pricing/module/step/charge/ApplyPaymentMethodFeeAfterDiscountsStep.java: 'class_prompt'
+2024-11-13 17:46:35,493 - INFO - 
+Processing complete.
+2024-11-13 17:46:52,528 - INFO - 
+Repository directory set to: /home/jackson-sa/Projects/pricing-engine/java/pricing-module/src/main/java/com/abinbev/b2b/pricing/module/step/charge
+
+2024-11-13 17:46:52,575 - INFO - Ollama3 is already installed.
+2024-11-13 17:46:52,577 - INFO - HTTP Request: GET http://localhost:11434/api/tags "HTTP/1.1 200 OK"
+2024-11-13 17:46:52,578 - INFO - Model 'llama3.2' is already available.
+2024-11-13 17:46:52,578 - INFO - Starting the Ollama server...
+2024-11-13 17:46:52,578 - INFO - Ollama server started. Waiting for initialization...
+2024-11-13 17:47:07,593 - INFO - Ollama server is running.
+2024-11-13 17:47:07,594 - INFO - Found 19 Java files.
+
+2024-11-13 17:47:07,594 - INFO - Adding Javadoc with cross-references...
+2024-11-13 17:47:13,134 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 17:47:17,414 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 17:47:21,559 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 17:47:26,017 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 17:47:50,009 - WARNING - Invalid Javadoc format received for class: public class ApplyOverPriceAfterDiscountsStep implements BasePricingStep<Void>
+2024-11-13 17:47:51,947 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 17:47:57,004 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 17:48:02,756 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 17:48:06,068 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 17:48:29,252 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-13 17:48:34,406 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
