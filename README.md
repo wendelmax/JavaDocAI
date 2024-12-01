@@ -48,6 +48,12 @@
    ```bash
    python build_parsers.py
    ```
+   Este passo é **obrigatório** após clonar o repositório. Ele irá:
+   - Clonar o repositório tree-sitter-java
+   - Compilar a gramática Java
+   - Gerar os arquivos necessários na pasta `build/`
+
+   > ⚠️ **Nota**: Os arquivos gerados não são versionados e devem ser recriados após clonar o repositório.
 
 ## ⚙️ Configuração
 
