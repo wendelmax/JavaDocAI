@@ -4,6 +4,13 @@ ollama:
   flash_attention: true
   max_retries: 5
   retry_delay: 60
+  # You can use any model available in your Ollama installation
+  # Recommended models:
+  # - qwen2.5-coder:7b (default)
+  # - codellama:7b
+  # - deepseek-coder:6.7b
+  # - phind-codellama:34b
+  # Check available models with: ollama list
   model: "qwen2.5-coder:7b"
   temperature: 0.7
   top_p: 0.95

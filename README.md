@@ -1,141 +1,129 @@
-# **JavaDocAI**
+# JavaDocAI 
 
-**JavaDocAI** é uma ferramenta automatizada projetada para aprimorar seu código Java adicionando comentários Javadoc abrangentes a todas as classes, métodos e campos. Utilizando o poder de uma instância local do **Ollama3**, o JavaDocAI não apenas gera comentários Javadoc padrão, mas também referencia classes relacionadas dentro do seu projeto.
+An AI-powered tool that automatically generates high-quality Javadoc comments for your Java codebase using Ollama LLM.
 
-## 📄 Sumário
+## Features
 
-- [🌟 Recursos](#-recursos)
-- [🚀 Pré-requisitos](#-pré-requisitos)
-- [🛠 Instalação](#-instalação)
-- [⚙️ Configuração](#-configuração)
-- [📚 Uso](#-uso)
-- [🤝 Contribuindo](#-contribuindo)
+- Automatic Javadoc generation for Java files
+- Support for multiple Ollama models
+- Multi-threaded processing for large codebases
+- Configurable logging and processing options
+- Internationalization support
 
-## 🌟 Recursos
+## Requirements
 
-- **Geração Automatizada de Javadoc**: Adiciona automaticamente comentários Javadoc a todas as classes, métodos e campos Java.
-- **Referências Inteligentes**: Adiciona referências para dependências diretas no código.
-- **Documentação Abrangente**: Utiliza uma instância local do Ollama para gerar documentação detalhada.
-- **Processamento Paralelo**: Utiliza múltiplas threads para acelerar o processamento de grandes bases de código.
-- **Suporte Multilíngue**: Suporte para diferentes idiomas através do arquivo `i18n.json`.
+- Python 3.10+
+- Ollama installed and running
+- Git (for cloning tree-sitter grammar)
 
-## 🚀 Pré-requisitos
+## Installation
 
-1. **Python 3.10+**
-2. **Git**
-3. **Ollama** (será instalado automaticamente pelo script)
-
-## 🛠 Instalação
-
-1. **Clone o Repositório**
+1. **Clone the Repository**
    ```bash
    git clone https://github.com/wendelmax/JavaDocAI.git
    cd JavaDocAI
    ```
 
-2. **Crie e Ative o Ambiente Virtual**
+2. **Create and Activate Virtual Environment**
    ```bash
    python -m venv venv
-   source venv/bin/activate  # No Windows: venv\Scripts\activate
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 
-3. **Instale as Dependências**
+3. **Install Dependencies**
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Configure o Parser Java**
+4. **Build Java Parser**
    ```bash
    python build_parsers.py
    ```
-   Este passo é **obrigatório** após clonar o repositório. Ele irá:
-   - Clonar o repositório tree-sitter-java
-   - Compilar a gramática Java
-   - Gerar os arquivos necessários na pasta `build/`
+   This step is **mandatory** after cloning the repository. It will:
+   - Clone the tree-sitter-java repository
+   - Compile the Java grammar
+   - Generate necessary files in the `build/` directory
 
-   > ⚠️ **Nota**: Os arquivos gerados não são versionados e devem ser recriados após clonar o repositório.
+   > **Note**: Generated files are not versioned and must be recreated after cloning.
 
-## ⚙️ Configuração
+## Configuration
 
-1. **Crie seu arquivo .env**
+### Model Selection
+JavaDocAI supports any model available in Ollama. To choose a model:
+
+1. **List Available Models**
    ```bash
-   cp .env.example .env
+   ollama list
    ```
-   
-   Edite o arquivo `.env` conforme necessário. As principais configurações são:
-   - `OLLAMA_HOST`: Host do servidor Ollama
-   - `OLLAMA_PORT`: Porta do servidor Ollama
-   - `OLLAMA_MODEL`: Modelo a ser usado
-   - `LOG_LEVEL`: Nível de logging
-   - `BATCH_SIZE`: Tamanho do lote para processamento
-   - `MAX_CONCURRENT_TASKS`: Número máximo de tarefas concorrentes
 
-2. **Configuração do Idioma**
-   - O idioma padrão é definido no arquivo `config/i18n.json`
-   - Para mudar o idioma, edite a variável `LANGUAGE_CONFIG` no arquivo `.env`
-
-3. **Arquivo de Configuração (config.yaml)**
-   
-   O arquivo `config/config.yaml` contém as configurações principais do sistema:
-
+2. **Update Configuration**
+   Edit `config/config.yaml` and set your preferred model:
    ```yaml
    ollama:
-     # Configurações do modelo LLM
-     model: "qwen2.5-coder:7b"    # Modelo usado para geração
-     temperature: 0.7             # Criatividade do modelo (0.0 - 1.0)
-     top_p: 0.95                 # Probabilidade de amostragem
-     context_window: 4096        # Tamanho da janela de contexto
-
-   logging:
-     level: "DEBUG"              # Nível de log (DEBUG, INFO, WARNING, ERROR)
-     rotation: "1 day"           # Rotação do arquivo de log
-     retention: "1 week"         # Retenção dos logs
-
-   processing:
-     batch_size: 10              # Quantidade de arquivos processados por vez
-     max_concurrent_tasks: 4     # Número máximo de tarefas paralelas
+     model: "your-chosen-model"  # e.g., "codellama:7b", "qwen:7b", etc.
    ```
 
-4. **Níveis de Log**
+   Recommended models for Javadoc generation:
+   - qwen2.5-coder:7b (default)
+   - codellama:7b
+   - deepseek-coder:6.7b
+   - phind-codellama:34b
 
-   O sistema suporta diferentes níveis de log que podem ser configurados no `config.yaml`:
+### Logging Configuration
+Configure logging in `config/config.yaml`:
+```yaml
+logging:
+  level: "DEBUG"  # Options: DEBUG, INFO, WARNING, ERROR
+  rotation: "1 day"
+  retention: "1 week"
+```
 
-   - `ERROR`: Apenas erros críticos
-   - `WARNING`: Avisos e erros
-   - `INFO`: Informações gerais de execução
-   - `DEBUG`: Informações detalhadas, incluindo:
-     - Prompts enviados para o modelo LLM
-     - Respostas recebidas do modelo
-     - Detalhes do processamento de arquivos
-     - Informações de depuração
+### Processing Options
+Adjust processing settings in `config/config.yaml`:
+```yaml
+processing:
+  batch_size: 10
+  max_concurrent_tasks: 4
+  timeout: 300
+```
 
-   Para ver a geração do LLM em tempo real, use o nível `DEBUG`:
-   ```yaml
-   logging:
-     level: "DEBUG"
+## Usage
+
+1. **Start Ollama Server**
+   ```bash
+   ollama serve
    ```
 
-## 📚 Uso
-
-1. **Execute o Script Principal**
+2. **Run JavaDocAI**
    ```bash
    python main.py
    ```
+   When prompted, enter the path to your Java repository.
 
-2. **Insira o Caminho do Repositório**
-   - Quando solicitado, insira o caminho do repositório Java que deseja documentar
-   - O script processará todos os arquivos Java encontrados no diretório
+## Output
 
-3. **Acompanhe o Progresso**
-   - O script mostrará o progresso do processamento
-   - Os arquivos serão atualizados com os comentários Javadoc gerados
+Generated Javadoc comments will be added to your Java files following standard Javadoc format:
+```java
+/**
+ * Calculates the sum of two numbers.
+ *
+ * @param a the first number
+ * @param b the second number
+ * @return the sum of a and b
+ */
+public int add(int a, int b) {
+    return a + b;
+}
+```
 
-## 🤝 Contribuindo
+## Contributing
 
-Contribuições são bem-vindas! Por favor, siga estes passos:
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Note
+
+Make sure to review generated comments before committing them to your codebase. While the AI strives for accuracy, human verification is recommended.
