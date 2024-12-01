@@ -1,6 +1,7 @@
 import os
 import time
 import socket
+import shutil
 import subprocess
 from pathlib import Path
 from typing import List, Dict, Optional
@@ -43,8 +44,10 @@ class JavaDocAI:
     def initialize_parser() -> Parser:
         """Initialize the Tree-sitter parser for Java."""
         try:
-            JAVA_LANGUAGE = Language(java.language())
-            parser = Parser(JAVA_LANGUAGE)
+            # Load the built language library
+            JAVA_LANGUAGE = Language('build/java-languages.so', 'java')
+            parser = Parser()
+            parser.set_language(JAVA_LANGUAGE)
             return parser
         except Exception as e:
             log.error(f"Failed to initialize Java parser: {e}")
@@ -72,19 +75,28 @@ class JavaDocAI:
     def ensure_ollama_setup(self) -> bool:
         """Ensure Ollama is installed and set up with proper error handling."""
         try:
+            # Check if Ollama is installed
             if not self.is_ollama_installed():
-                log.info("Installing Ollama...")
-                self.install_ollama()
-                if not self.is_ollama_installed():
-                    log.error("Failed to install Ollama")
-                    return False
+                log.error("Failed to install Ollama")
+                return False
 
             # Check if model is available
             model_name = config["ollama"]["model"]
-            available_models = self.client.list()
-            model_present = any(
-                model["name"] == model_name for model in available_models.get("models", [])
-            )
+            try:
+                available_models = self.client.list()
+                model_present = any(
+                    model["name"] == model_name for model in available_models.get("models", [])
+                )
+            except Exception as e:
+                log.error(f"Error checking model availability: {e}")
+                # Try to start server if list fails
+                if not self.start_ollama_server():
+                    return False
+                # Check models again after server start
+                available_models = self.client.list()
+                model_present = any(
+                    model["name"] == model_name for model in available_models.get("models", [])
+                )
 
             if not model_present:
                 log.info(f"Downloading model {model_name}...")
@@ -92,6 +104,17 @@ class JavaDocAI:
                 log.info(f"Model {model_name} downloaded successfully")
             else:
                 log.info(f"Model {model_name} is already available")
+
+            # Keep model loaded if configured
+            if config["ollama"]["keep_alive"]:
+                log.info("Keeping model loaded...")
+                self.client.chat(
+                    model=model_name,
+                    messages=[{"role": "system", "content": "Keep model loaded"}],
+                    options={
+                        "timeout": config["ollama"]["timeout"]
+                    }
+                )
 
             return True
         except Exception as e:
@@ -101,13 +124,33 @@ class JavaDocAI:
     def is_ollama_server_running(self) -> bool:
         """Check if Ollama server is running with proper error handling."""
         try:
-            with socket.create_connection(("localhost", config["ollama"]["server_port"]), timeout=5):
-                return True
-        except (socket.timeout, ConnectionRefusedError):
-            log.error("Could not connect to Ollama server")
+            # Try to list models as a more reliable way to check server status
+            self.client.list()
+            return True
+        except Exception as e:
+            log.error(f"Could not connect to Ollama server: {e}")
+            return False
+
+    def start_ollama_server(self):
+        """Start the Ollama server."""
+        try:
+            log.info("Starting Ollama server...")
+            subprocess.Popen(
+                ["ollama", "serve"],
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE
+            )
+            # Wait for server to start
+            max_retries = 5
+            for i in range(max_retries):
+                if self.is_ollama_server_running():
+                    log.info("Ollama server started successfully")
+                    return True
+                time.sleep(2)
+            log.error("Failed to start Ollama server after multiple attempts")
             return False
         except Exception as e:
-            log.error(f"Unexpected error checking Ollama server: {e}")
+            log.error(f"Error starting Ollama server: {e}")
             return False
 
     def process_files(self):
@@ -293,7 +336,15 @@ class JavaDocAI:
             Optional[str]: The AI response as a string.
         """
         try:
-            stream = self.client.chat(
+            log.debug(f"Sending prompt to LLM: {prompt}")
+            
+            # Check if Ollama server is running
+            if not self.is_ollama_server_running():
+                log.error("Ollama server is not running")
+                self.start_ollama_server()
+                time.sleep(5)  # Wait for server to start
+
+            response = self.client.chat(
                 model=config["ollama"]["model"],
                 messages=[
                     {
@@ -305,27 +356,20 @@ class JavaDocAI:
                         "content": prompt
                     }
                 ],
-                stream=True,
                 options={
+                    "timeout": config["ollama"]["timeout"],
                     "temperature": config["ollama"]["temperature"],
-                    "top_p": config["ollama"]["top_p"],
-                    "context_window": config["ollama"]["context_window"]
+                    "top_p": config["ollama"]["top_p"]
                 }
             )
-
-            response = ""
-            for chunk in stream:
-                content = chunk.get('message', {}).get('content', '')
-                response += content
-
-            # Log the complete model response
-            log.debug(f"Complete model response: {response}")
-
-            return response.strip()
-
-        except ResponseError as e:
-            log.error(f"Ollama API error: {e.error}")
-            return None
+            
+            if response and 'message' in response:
+                log.debug(f"Received response from LLM: {response['message']['content']}")
+                return response['message']['content']
+            else:
+                log.error(f"Invalid response format from LLM: {response}")
+                return None
+                
         except Exception as e:
             log.error(f"Error getting AI response: {e}")
             return None
@@ -430,17 +474,3 @@ class JavaDocAI:
             log.error(f"Error installing Ollama: {e}")
         except Exception as e:
             log.error(f"Unexpected error installing Ollama: {e}")
-
-    def start_ollama_server(self):
-        """Start the Ollama server."""
-        try:
-            log.info("Starting Ollama server...")
-            subprocess.Popen(["ollama", "serve"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-            log.info("Ollama server started")
-            time.sleep(15)  # Wait to ensure the server is operational
-            if self.is_ollama_server_running():
-                log.info("Ollama server is running")
-            else:
-                log.error("Ollama server failed to start")
-        except Exception as e:
-            log.error(f"Error starting Ollama server: {e}")

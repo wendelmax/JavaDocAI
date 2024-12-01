@@ -11,7 +11,8 @@
             "server_starting": "Starting Ollama server...",
             "server_started": "Ollama server started",
             "server_running": "Ollama server is running",
-            "server_failed": "Ollama server failed to start"
+            "server_failed": "Ollama server failed to start",
+            "repo_dir_set": "Repository directory set to: {repo_dir}"
         },
         "errors": {
             "config_not_found": "Configuration file not found: {path}",
@@ -64,6 +65,33 @@
             "model_ready": "AI model ready",
             "docs_generated": "Documentation generated successfully",
             "file_updated": "File updated: {file}"
+        },
+        "misc": {
+            "processing_file": "Processing file: {file}",
+            "generating_javadoc": "Generating Javadoc for {item}",
+            "updating_file": "Updating file: {file}",
+            "skipping_file": "Skipping file: {file} - {reason}"
+        },
+        "cli": {
+            "start": "Starting JavaDocAI...",
+            "finish": "JavaDocAI finished processing",
+            "processing": "Processing files...",
+            "no_files": "No Java files found in directory",
+            "invalid_dir": "Invalid directory path",
+            "confirm": "Do you want to continue? (y/n): ",
+            "processing_complete": "Processing complete. Check the logs for details."
+        },
+        "ollama": {
+            "starting": "Starting Ollama server...",
+            "started": "Ollama server started successfully",
+            "connecting": "Connecting to Ollama server...",
+            "connected": "Connected to Ollama server",
+            "model_loading": "Loading model {model}...",
+            "model_loaded": "Model {model} loaded successfully",
+            "generating": "Generating documentation...",
+            "request_error": "Error in Ollama request: {error}",
+            "server_error": "Ollama server error: {error}",
+            "timeout": "Request timed out"
         }
     },
     "pt": {
@@ -78,7 +106,8 @@
             "server_starting": "Iniciando servidor Ollama...",
             "server_started": "Servidor Ollama iniciado",
             "server_running": "Servidor Ollama está rodando",
-            "server_failed": "Falha ao iniciar servidor Ollama"
+            "server_failed": "Falha ao iniciar servidor Ollama",
+            "repo_dir_set": "Diretório do repositório definido para: {repo_dir}"
         },
         "errors": {
             "config_not_found": "Arquivo de configuração não encontrado: {path}",
@@ -131,6 +160,33 @@
             "model_ready": "Modelo de IA pronto",
             "docs_generated": "Documentação gerada com sucesso",
             "file_updated": "Arquivo atualizado: {file}"
+        },
+        "misc": {
+            "processing_file": "Processando arquivo: {file}",
+            "generating_javadoc": "Gerando Javadoc para {item}",
+            "updating_file": "Atualizando arquivo: {file}",
+            "skipping_file": "Pulando arquivo: {file} - {reason}"
+        },
+        "cli": {
+            "start": "Iniciando JavaDocAI...",
+            "finish": "JavaDocAI finalizou o processamento",
+            "processing": "Processando arquivos...",
+            "no_files": "Nenhum arquivo Java encontrado no diretório",
+            "invalid_dir": "Caminho do diretório inválido",
+            "confirm": "Deseja continuar? (s/n): ",
+            "processing_complete": "Processamento concluído. Verifique os logs para detalhes."
+        },
+        "ollama": {
+            "starting": "Iniciando servidor Ollama...",
+            "started": "Servidor Ollama iniciado com sucesso",
+            "connecting": "Conectando ao servidor Ollama...",
+            "connected": "Conectado ao servidor Ollama",
+            "model_loading": "Carregando modelo {model}...",
+            "model_loaded": "Modelo {model} carregado com sucesso",
+            "generating": "Gerando documentação...",
+            "request_error": "Erro na requisição Ollama: {error}",
+            "server_error": "Erro no servidor Ollama: {error}",
+            "timeout": "Tempo limite da requisição excedido"
         }
     }
 }
